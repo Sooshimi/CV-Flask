@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #2d7fac;
+}
+
+body {
+    background: #E6EFF4;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background: #FFFFFF;
+    padding: 1em;
+
+    .name {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+
+        span {
+            color: var(--primary-color);
+        }
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+
+    .mobile-menu {
+        cursor: pointer;
+    }
+
+}
+
+a {
+    color: #444444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: #E6F6F9;
+    border-collapse: collapse;
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+    float: right;
+    background: #FFFFFF;
+    border-collapse: collapse;
+  }
