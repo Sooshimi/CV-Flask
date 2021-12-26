@@ -17,6 +17,8 @@ from flask import Flask, render_template
 # 1:13:00
 # https://fonts.google.com/
 
+# https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 app = Flask(__name__)
 
 @app.route('/') #determines entry point, where / is root
