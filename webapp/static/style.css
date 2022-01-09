@@ -49,18 +49,38 @@ ul {
   padding: 0;
 }
 
-.left {
-  width: 30%;
-  height: 100%;
-  float: left;
+.frame {
+  padding: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 5em;
+}
+
+.frame .left {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
   background: #E6F6F9;
   border-collapse: collapse;
 }
 
-.right {
-  width: 70%;
-  height: 100%;
-  float: right;
+.frame .right {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
   background: #FFFFFF;
   border-collapse: collapse;
 }

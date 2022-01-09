@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-# Also run SASS watcher
+# Also run SASS watcher (bottom of VSC)
 
 # ON PC:
 # To run app server, run following command in cmd in the webapp dir: python app.py
