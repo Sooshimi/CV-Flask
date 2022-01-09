@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #E6EFF4;
+    background: #d6d6d6;
     margin: 0;
     font-family: sans-serif;
 }
@@ -49,22 +49,24 @@ ul {
 }
 
 .frame {
-    padding: 5em;
+    padding: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 5em;
+    gap: 2em;
 
     .left {
         order: 1;
-        background: #E6F6F9;
+        padding: 2em;
+        background: #aaaaaa;
         border-collapse: collapse;
     }
     
     .right {
         order: 2;
+        padding: 2em;
         background: #FFFFFF;
         border-collapse: collapse;
       }

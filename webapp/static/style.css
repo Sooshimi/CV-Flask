@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #E6EFF4;
+  background: #d6d6d6;
   margin: 0;
   font-family: sans-serif;
 }
@@ -50,7 +50,7 @@ ul {
 }
 
 .frame {
-  padding: 5em;
+  padding: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,14 +66,15 @@ ul {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: 5em;
+  gap: 2em;
 }
 
 .frame .left {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  background: #E6F6F9;
+  padding: 2em;
+  background: #aaaaaa;
   border-collapse: collapse;
 }
 
@@ -81,6 +82,7 @@ ul {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  padding: 2em;
   background: #FFFFFF;
   border-collapse: collapse;
 }
