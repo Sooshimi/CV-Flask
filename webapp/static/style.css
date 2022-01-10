@@ -8,65 +8,62 @@ body {
   font-family: sans-serif;
 }
 
-.frame {
+.banner {
+  min-height: 100vh;
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2em;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  height: 1000px;
+  position: absolute;
+  background: #48AFAB;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5em;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: 2em;
-  z-index: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.frame .left {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  padding: 2em;
-  background: #aaaaaa;
-  border-collapse: collapse;
-}
-
-.frame .right {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-  padding: 2em;
-  background: #FFFFFF;
-  border-collapse: collapse;
-}
-
-.banner {
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  padding: 2em;
-  position: absolute;
-  width: 385px;
-  height: 1080px;
-  left: 0px;
-  top: 0px;
-  background: #48AFAB;
-  place-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.left {
+  position: relative;
+  padding: 1em;
+  width: 25%;
+  height: 300px;
+  background: #72CDCA;
+  border-collapse: collapse;
+}
+
+.right {
+  position: relative;
+  padding: 1em;
+  width: 75%;
+  height: 1000px;
+  background: #ffcece;
+  border-collapse: collapse;
 }
 /*# sourceMappingURL=style.css.map */
