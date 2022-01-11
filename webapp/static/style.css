@@ -10,60 +10,61 @@ body {
 
 .banner {
   min-height: 100vh;
-  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 21%;
   height: 1000px;
   position: absolute;
   background: #48AFAB;
 }
 
-section {
-  min-height: 100vh;
-  width: 100%;
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 5em;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.container {
-  position: relative;
-  width: 90%;
-  max-width: 90%;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .left {
   position: relative;
   padding: 1em;
-  width: 25%;
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
   height: 300px;
   background: #72CDCA;
-  border-collapse: collapse;
+}
+
+.left-container {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .right {
   position: relative;
   padding: 1em;
-  width: 75%;
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
   height: 1000px;
   background: #ffcece;
-  border-collapse: collapse;
 }
 /*# sourceMappingURL=style.css.map */
